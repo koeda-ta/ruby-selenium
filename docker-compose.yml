@@ -1,0 +1,11 @@
+version: "3"
+services:
+  selenium-hub:
+    build: .
+    container_name: selenium-hub
+    ports:
+      - "4444:4444"
+    expose: 
+      - 4444
+    volumes:
+      - ./ruby-code/:/opt/ruby-code/
