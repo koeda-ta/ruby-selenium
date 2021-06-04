@@ -20,4 +20,4 @@ RUN gem install httparty -v 0.13.7 --no-ri --no-rdoc
 RUN gem install parallel_tests -v 2.6.0 --no-ri --no-rdoc
 RUN gem install byebug -v 9.0.5 --no-ri --no-rdoc
 RUN gem install poltergeist -v 1.10.0 --no-ri --no-rdoc
-RUN gem update selenium-webdriver -v 1.10.0 --no-ri --no-rdoc
+RUN gem update selenium-webdriver --no-ri --no-rdoc
