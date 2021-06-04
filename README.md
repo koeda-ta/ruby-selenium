@@ -7,3 +7,4 @@
 6. link tải selenium-server-standalone all version: http://selenium-release.storage.googleapis.com/index.html
 7. link tải chromedrive: https://chromedriver.chromium.org/downloads
 8. link tải selenium version mới nhất: https://www.selenium.dev/downloads/
+9. Xác thực trên MacOS: xattr -d com.apple.quarantine chromedrive
